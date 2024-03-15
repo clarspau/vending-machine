@@ -1,0 +1,20 @@
+.vending-machine-contents {
+     height: 900px;
+     width: 1000px;
+     background-size: contain;
+     display: flex;
+     flex-direction: row;
+     gap: 420px;
+     align-items: center;
+}
+
+h1 {
+     color: white;
+     width: 200px;
+     margin-left: 80px;
+     text-transform: uppercase;
+}
+
+.links {
+     color: white;
+}
