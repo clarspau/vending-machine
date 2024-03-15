@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import './App.css';
-import VendingMachine from '../VendingMachine/VendingMachine';
-import Cookies from '../Cookies/Cookies';
-import Chips from '../Chips/Chips';
-import Sodas from '../Sodas/Sodas';
+import VendingMachine from './VendingMachine';
+import Cookies from './Cookies';
+import Chips from './Chips';
+import Sodas from './Sodas';
 
 function App() {
   return (

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './VendingMachine.css';
-import VendingMachineImg from './VendingMachineImg.jpg';
+import VendingMachineImg from './VendingMachine.jpg';
+
 
 function VendingMachine() {
      return (

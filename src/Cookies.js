@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cookies.css';
 import { Link } from 'react-router-dom';
-import CookiesImg from './cookies.jpg';
+import CookiesImg from './Cookies.jpg';
 
 function Cookies() {
      return (
