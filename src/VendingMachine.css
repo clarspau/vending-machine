@@ -1,20 +1,33 @@
-.vending-machine-contents {
-     height: 900px;
-     width: 1000px;
-     background-size: contain;
+.VendingMachine {
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+     /* Ensure the background covers the entire viewport */
      display: flex;
-     flex-direction: row;
-     gap: 420px;
+     justify-content: center;
      align-items: center;
+     text-align: center;
+     /* Center the text horizontally */
+}
+
+.VendingMachine-contents {
+     background-color: rgba(255, 255, 255, 0.3);
+     /* Add a semi-transparent background to make the text more readable */
+     padding: 20px;
+     border-radius: 10px;
 }
 
 h1 {
+     text-shadow: gray 2px 2px 2px;
+}
+
+.link {
+     text-shadow: gray 2px 2px 2px;
      color: white;
-     width: 200px;
-     margin-left: 80px;
-     text-transform: uppercase;
 }
 
 .links {
-     color: white;
+     display: flex;
+     justify-content: space-evenly;
 }

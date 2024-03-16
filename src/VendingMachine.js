@@ -8,12 +8,11 @@ function VendingMachine() {
      return (
           <div className="VendingMachine" style={{ backgroundImage: `url(${VendingMachineImg})` }}>
                <div className="VendingMachine-contents">
-                    <h1>HELLO, I AM A VENDING MACHINE. WHAT WOULD YOU LIKE TO EAT?</h1>
-                    {/* <img src={VendingMachineImg} alt="Vending Machine" /> */}
+                    <h1 className="vending-machine-title">HELLO, I AM A VENDING MACHINE. WHAT WOULD YOU LIKE TO EAT?</h1>
                     <div className="links">
-                         <Link to="/cookies">Cookies</Link>
-                         <Link to="/chips">Chips</Link>
-                         <Link to="/sodas">Sodas</Link>
+                         <Link to="/cookies" className='link'>Cookies</Link>
+                         <Link to="/chips" className='link'>Chips</Link>
+                         <Link to="/sodas" className='link'>Sodas</Link>
                     </div>
                </div>
           </div>
