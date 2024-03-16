@@ -7,11 +7,15 @@ function Sodas() {
      return (
           <div className="Sodas"
                style={{ backgroundImage: `url(${SodasImg})` }}>
-               <h1>SODAS</h1>
-               <div className="links">
-                    <Link to="/">Go Back to Vending Machine</Link>
-                    <Link to="/cookies">Cookies</Link>
-                    <Link to="/chips">Chips</Link>
+               <div className="Sodas-contents">
+                    <h1>SODAS</h1>
+                    <div>
+                         <Link to="/" className='vm-link'>Go Back to Vending Machine</Link>
+                    </div>
+                    <div className="links">
+                         <Link to="/cookies" className='link'>Cookies</Link>
+                         <Link to="/chips" className='link'>Chips</Link>
+                    </div>
                </div>
           </div>
      );

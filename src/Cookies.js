@@ -7,11 +7,15 @@ function Cookies() {
      return (
           <div className="Cookies"
                style={{ backgroundImage: `url(${CookiesImg})` }}>
-               <h1>COOKIES</h1>
-               <div className="links">
-                    <Link to="/">Go Back to Vending Machine</Link>
-                    <Link to="/chips">Chips</Link>
-                    <Link to="/sodas">Sodas</Link>
+               <div className="Cookies-contents">
+                    <h1>COOKIES</h1>
+                    <div>
+                         <Link to="/" className='vm-link'>Go Back to Vending Machine</Link>
+                    </div>
+                    <div className="links">
+                         <Link to="/chips" className='link'>Chips</Link>
+                         <Link to="/sodas" className='link'>Sodas</Link>
+                    </div>
                </div>
           </div>
      );

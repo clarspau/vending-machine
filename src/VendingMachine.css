@@ -16,15 +16,25 @@
      /* Add a semi-transparent background to make the text more readable */
      padding: 20px;
      border-radius: 10px;
+     width: 100%;
 }
 
-h1 {
+.vending-machine-title {
      text-shadow: gray 2px 2px 2px;
+     font-size: 3rem;
+     /* Adjust the font size as needed */
+}
+
+h1 span {
+     display: block;
+     /* Make the span element a block-level element */
 }
 
 .link {
      text-shadow: gray 2px 2px 2px;
      color: white;
+     text-decoration: none;
+     /* Remove underline from links */
 }
 
 .links {
